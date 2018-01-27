@@ -1,87 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+
 header{
-  color: white;
-  background: midnightblue;
-  width: 100%;
+  background: #a3a2a2;
+  opacity: 0.8;
   position: fixed;
+  width: 100%;
   z-index: 10;
 }
 
-ul{
-  margin: 30px auto;
-  padding: 0 40px;
-  text-align: center;
-}
-
-li, a{
-  width: auto;
-  display: inline-block;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-family: arial;
-  color: white;
+a{
   text-decoration: none;
-}
-
-/*a{
-  text-decoration: none;
-  color: white;
-}*/
-
-li:hover{
   color: black;
 }
 
-.welcome{
-  padding: 100px 0px 10px 0px;
-  text-align: center;
-  font-size: 15px;
-  font-family: arial;
+a:hover{
+  color: white;
 }
 
-.welcome h2{
-  font-size: 15px;
+.logo{
+
+}
+
+header .menu{
+  float: right;
+  background: #a3a2a2;
+}
+
+ul{
+  margin-top: -20px;
+}
+
+li{
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+li:hover{
+  background: #b6b6b6;
+}
+
+.welcome{
+  text-align: center;
+  padding: 50px;
 }
 
 body{
-  margin: -21px auto;
-  background: skyblue;
+  margin: 0px auto;
+  padding: 0px;
+  background: #d6d6d6;
 }
 
-.question{
-  text-align: center;
+.gambarKucing{
+  width: 30%;
+  position: relative;
+  left: 140px;
 }
 
-.answer{
+.detilKucing{
+  width: 500px;
   border: 1px solid black;
-  width: 200px;
-  height: 100px;
-  display: inline-block;
+  position: relative;
+  float: right;
+  top: -190px;
+  right: 141px;
 }
 
-.answer:hover{
-  background: white;
+.spesies{
+  margin: -1px 0px 0px 0px;
 }
 
-h4{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
+.spesies img{
+  width: 400px;
+  height: 250px;
 }
 
-h2{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
+/* #ragdoll{
+  background: blue;
+} */
+
+.footer{
+  background: #a3a2a2;
+  width: 100%;
+  padding: 10px;
+  margin: 103px 0 0 0;
+  text-align: right;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-h3{
-  text-align: center;
-  padding: 20px 0px;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-}
-
-footer{
-  font-size: 16px;
-  text-align: center;
-  background: midnightblue;
-  color: white;
+.span_footer{
 }
